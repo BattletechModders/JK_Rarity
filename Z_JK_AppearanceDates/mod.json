@@ -1,0 +1,21 @@
+{
+    "Name": "Z_JK_AppearanceDates",
+    "Enabled": true,
+
+    "DependsOn": [],
+
+    "OptionallyDependsOn": [ "cFixes", "BattletechPerformanceFix", "CommunityBundles",  "LC_SLDFRoyal_DLC", "LC_SLDFRoyal_Addon", "LC_SLDFRoyal_WR", "LC_SLDFRoyal_Unique", "BT_Extended_3025" , "BT_Extended_3025_Plus", "JK_VariantsCAB", "JK_VariantsStarLeague", "JK_VariantsDLC", "JK_VariantsCampaign" ],
+       
+	"Version": "1.4.0.4",
+	"PackagedOn": "2019-02-20T16:45:00Z",
+    "Description": "Adds year available dates to all 'Mechs and Vehicles in Vanilla, JK Variants and multiple other mods.  Thank you to MPStark for his timeline mod, which will make this even more useful as time marches on!",
+    "Author": "Justin Kase",
+    "Website": "",
+    "Contact": "message me at Nexus or Paradox sites",
+	
+	"Manifest": [
+        { "Type": "MechDef", "Path": "mech_all", "ShouldMergeJSON": true, "AddToDB": false },
+        { "Type": "MechDef", "Path": "mech_noChassis", "ShouldMergeJSON": true, "AddToDB": false },
+        { "Type": "VehicleDef", "Path": "vehicle_all", "ShouldMergeJSON": true, "AddToDB": false }
+    ]
+}
