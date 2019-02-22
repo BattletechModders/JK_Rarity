@@ -1,0 +1,25 @@
+{
+    "Name": "Z_Sab_JK_RarityTables",
+    "Enabled": true,
+
+    "DependsOn": [ "IRBT14MadlibsFix" ],
+
+    "OptionallyDependsOn": [ "cfixes", "CommunityBundles", "BattletechPerformanceFix", "LC_SLDFRoyal_DLC", "LC_SLDFRoyal_Addon", "LC_SLDFRoyal_WR", "LC_SLDFRoyal_Unique", "BT_Extended_3025" , "BT_Extended_3025_Plus", "JK_VariantsCAB", "JK_VariantsStarLeague", "JK_VariantsDLC", "JK_VariantsCampaign" ],
+    
+	"Version": "1.4.0.4",
+	"PackagedOn": "2019-02-20T16:45:00Z",
+    "Description": "Adds new tags to all 'Mechs and Vehicles in Vanilla and JK Variants.  Also modifies the LanceDefs to use these new tags creating faction based rarity tables.  Adds in Rarity files for other 'Mech bundles out there - you must install those mods in order for these to take effect.  Otherwise, ModTek just skips these files causing no issues.",
+    "Author": "Sabrist, Dr Banzai, Haree78 and Justin Kase",
+    "Website": "",
+    "Contact": "message me at Nexus or Paradox sites",
+	
+	"Manifest": [
+        { "Type": "LanceDef", "Path": "lance", "ShouldMergeJSON": true, "AddToDB": false },
+        { "Type": "LanceDef", "Path": "lance_JK", "ShouldMergeJSON": false, "AddToDB": true },
+        { "Type": "ContractOverride", "Path": "contracts", "AddToDB": false },
+        { "Type": "ContractOverride", "Path": "contracts_JK", "AddToDB": true },
+        { "Type": "MechDef", "Path": "mech_all", "ShouldMergeJSON": true, "AddToDB": false },
+        { "Type": "MechDef", "Path": "mech_noChassis", "ShouldMergeJSON": true, "AddToDB": false },
+        { "Type": "VehicleDef", "Path": "vehicle_all", "ShouldMergeJSON": true, "AddToDB": false }
+    ]
+}
