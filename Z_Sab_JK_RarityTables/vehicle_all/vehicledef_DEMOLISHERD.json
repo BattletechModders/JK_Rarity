@@ -1,0 +1,36 @@
+{
+   "VehicleTags": {
+     "items": [
+        "unit_vehicle",
+        "unit_assault",
+        "unit_tracks",
+        "unit_uncommon",
+        "unit_rare_MagistracyOfCanopus",
+        "unit_uncommon_TaurianConcordat",
+        "unit_uncommon_Liao",
+        "unit_common_Marik",
+        "unit_uncommon_Davion",
+        "unit_uncommon_Steiner",
+        "unit_rare_Kurita",
+        "unit_rare_ComStar",
+        "unit_uncommon_AuriganDirectorate",
+        "unit_uncommon_Betrayers",
+        "unit_uncommon_AuriganMercenaries",
+        "unit_common_AuriganPirates",
+        "unit_uncommon_AuriganRestoration",
+        "unit_uncommon_Locals",
+        "unit_uncommon_MajestyMetals",
+        "unit_uncommon_MercenaryReviewBoard",
+        "unit_uncommon_FlakJackals",
+        "unit_uncommon_LocalsBrockwayRefugees",
+        "unit_uncommon_SelfEmployed",
+        "unit_uncommon_MasonsMarauders",
+        "unit_uncommon_SteelBeast",
+        "unit_uncommon_KellHounds",
+        "unit_uncommon_RazorbackMercs",
+        "unit_uncommon_HostileMercenaries",
+        "unit_uncommon_NoFaction"
+     ],
+     "tagSetSourceFile": ""
+  },
+}
