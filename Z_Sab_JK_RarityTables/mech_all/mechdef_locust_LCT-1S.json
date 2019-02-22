@@ -1,0 +1,38 @@
+{
+    "MechTags": {
+        "items": [
+            "unit_mech",
+            "unit_release",
+            "unit_light",
+            "unit_lance_vanguard",
+            "unit_role_scout",
+			"unit_rare",
+			"unit_very_rare_MagistracyOfCanopus",
+			"unit_very_rare_TaurianConcordat",
+			"unit_very_rare_Liao",
+			"unit_rare_Marik",
+			"unit_very_rare_Davion",
+			"unit_common_Steiner",
+			"unit_rare_Kurita",
+			"unit_rare_ComStar",
+			"unit_very_rare_AuriganDirectorate",
+			"unit_rare_Betrayers",
+			"unit_rare_AuriganMercenaries",
+			"unit_rare_AuriganPirates",
+			"unit_rare_AuriganRestoration",
+			"unit_rare_Locals",
+			"unit_very_rare_MajestyMetals",
+			"unit_rare_MercenaryReviewBoard",
+			"unit_rare_FlakJackals",
+			"unit_very_rare_LocalsBrockwayRefugees",
+			"unit_rare_SelfEmployed",
+			"unit_rare_MasonsMarauders",
+			"unit_rare_SteelBeast",
+			"unit_rare_KellHounds",
+			"unit_rare_RazorbackMercs",
+			"unit_rare_HostileMercenaries",
+			"unit_rare_NoFaction"
+        ],
+        "tagSetSourceFile": ""
+    },
+}
