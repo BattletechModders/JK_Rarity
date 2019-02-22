@@ -1,0 +1,139 @@
+{
+   "Description" : {
+      "Id" : "lancedef_mech_d6_dynamic_smallMedHeavySupport",
+      "Name" : "Dynamic Dif 6 Small Medium Support",
+      "Details" : "",
+      "Icon" : "",
+      "Cost" : 0,
+      "Rarity" : 0,
+      "Purchasable" : false
+   },
+   "Difficulty" : 6,
+   "LanceTags" : {
+      "items" : [
+         "lance_bracket_med",
+         "lance_type_medium",
+         "lance_type_support",
+		 "lance_type_dynamic",
+		 "lance_type_mech",
+        "lance_type_notallvehicles",
+        "lance_type_notfull"
+      ],
+      "tagSetSourceFile" : "Tags/LanceTags"
+   },
+   "LanceUnits" : [
+      {
+         "unitType" : "Mech",
+         "unitId" : "Tagged",
+         "pilotId" : "Tagged",
+         "unitTagSet" : {
+            "items" : [
+               "unit_mech",
+               "unit_medium",
+               "unit_lance_support"
+            ],
+            "tagSetSourceFile" : "Tags/UnitTags"
+         },
+         "excludedUnitTagSet" : {
+            "items" : [
+               "unit_noncombatant",
+			   "unit_urbie",
+            "unit_very_rare_{CUR_TEAM.faction}",
+            "unit_ext_rare_{CUR_TEAM.faction}",
+            "unit_none_{CUR_TEAM.faction}",
+            "unit_hero_{CUR_TEAM.faction}",
+            "unit_LosTech",
+            "unit_era_2750",
+            "unit_era_2900",
+            "unit_clan"
+            ],
+			"tagSetSourceFile" : "Tags/UnitTags"
+         },
+         "pilotTagSet" : {
+            "items" : [
+               "pilot_npc_d6"
+            ],
+            "tagSetSourceFile" : "Tags/PilotTags"
+         },
+         "excludedPilotTagSet" : {
+            "items" : null,
+            "tagSetSourceFile" : "Tags/PilotTags"
+         }
+      },
+      {
+         "unitType" : "Mech",
+         "unitId" : "Tagged",
+         "pilotId" : "Tagged",
+         "unitTagSet" : {
+            "items" : [
+               "unit_mech",
+              "unit_medium",
+              "unit_indirectFire"
+            ],
+            "tagSetSourceFile" : "Tags/UnitTags"
+         },
+         "excludedUnitTagSet" : {
+            "items" : [
+               "unit_noncombatant",
+			   "unit_urbie",
+            "unit_very_rare_{CUR_TEAM.faction}",
+            "unit_ext_rare_{CUR_TEAM.faction}",
+            "unit_none_{CUR_TEAM.faction}",
+            "unit_hero_{CUR_TEAM.faction}",
+            "unit_LosTech",
+            "unit_era_2750",
+            "unit_era_2900",
+            "unit_clan"
+            ],
+            "tagSetSourceFile" : "Tags/UnitTags"
+         },
+         "pilotTagSet" : {
+            "items" : [
+               "pilot_npc_d6"
+            ],
+            "tagSetSourceFile" : "Tags/PilotTags"
+         },
+         "excludedPilotTagSet" : {
+            "items" : null,
+            "tagSetSourceFile" : "Tags/PilotTags"
+         }
+      },
+      {
+         "unitType" : "Mech",
+         "unitId" : "Tagged",
+         "pilotId" : "Tagged",
+         "unitTagSet" : {
+            "items" : [
+               "unit_mech",
+               "unit_heavy",
+			   "unit_lance_support"
+            ],
+            "tagSetSourceFile" : "Tags/UnitTags"
+         },
+         "excludedUnitTagSet" : {
+            "items" : [
+               "unit_noncombatant",
+			   "unit_urbie",
+            "unit_ext_rare_{CUR_TEAM.faction}",
+            "unit_none_{CUR_TEAM.faction}",
+            "unit_hero_{CUR_TEAM.faction}",
+            "unit_LosTech",
+            "unit_era_2750",
+            "unit_era_2900",
+            "unit_clan"
+            ],
+            "tagSetSourceFile" : "Tags/UnitTags"
+         },
+         "pilotTagSet" : {
+            "items" : [
+               "pilot_npc_d6"
+            ],
+            "tagSetSourceFile" : "Tags/PilotTags"
+         },
+         "excludedPilotTagSet" : {
+            "items" : null,
+            "tagSetSourceFile" : "Tags/PilotTags"
+         }
+      }    
+   ]
+}
