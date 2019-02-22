@@ -1,0 +1,10 @@
+ {
+    "Chassis" : null,
+    "MechTags" : {
+        "items" : [
+			"unit_dlc",
+			"BLACKLISTED"          
+        ],
+        "tagSetSourceFile" : ""
+    },
+}
