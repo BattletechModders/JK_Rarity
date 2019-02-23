@@ -20,6 +20,8 @@
         { "Type": "ContractOverride", "Path": "contracts_JK", "AddToDB": true },
         { "Type": "MechDef", "Path": "mech_all", "ShouldMergeJSON": true, "AddToDB": false },
         { "Type": "MechDef", "Path": "mech_noChassis", "ShouldMergeJSON": true, "AddToDB": false },
-        { "Type": "VehicleDef", "Path": "vehicle_all", "ShouldMergeJSON": true, "AddToDB": false }
+        { "Type": "VehicleDef", "Path": "vehicle_all", "ShouldMergeJSON": true, "AddToDB": false },
+        { "Type": "MechDef", "Path": "mech_userAdded", "ShouldMergeJSON": true, "AddToDB": false },
+        { "Type": "VehicleDef", "Path": "vehicle_userAdded", "ShouldMergeJSON": true, "AddToDB": false }
     ]
 }
