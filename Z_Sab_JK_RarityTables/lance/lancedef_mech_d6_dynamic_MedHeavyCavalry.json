@@ -67,13 +67,13 @@
             "items" : [
                "unit_jumpOK",
                "unit_mech",
-               "unit_medium",
-			   "unit_lance_support"
+               "unit_medium"
             ],
             "tagSetSourceFile" : "Tags/UnitTags"
          },
          "excludedUnitTagSet" : {
             "items" : [
+               "unit_lance,tank",
                "unit_noncombatant",
 			   "unit_urbie",
             "unit_very_rare_{CUR_TEAM.faction}",
@@ -106,22 +106,21 @@
             "items" : [
                "unit_mech",
                "unit_heavy",
-			   "unit_jumpOK",
-			   "unit_lance_tank"
+               "unit_jumpOK"
             ],
             "tagSetSourceFile" : "Tags/UnitTags"
          },
          "excludedUnitTagSet" : {
             "items" : [
                "unit_noncombatant",
-			   "unit_urbie",
-            "unit_ext_rare_{CUR_TEAM.faction}",
-            "unit_none_{CUR_TEAM.faction}",
-            "unit_hero_{CUR_TEAM.faction}",
-            "unit_LosTech",
-            "unit_era_2750",
-            "unit_era_2900",
-            "unit_clan"
+               "unit_urbie",
+               "unit_ext_rare_{CUR_TEAM.faction}",
+               "unit_none_{CUR_TEAM.faction}",
+               "unit_hero_{CUR_TEAM.faction}",
+               "unit_LosTech",
+               "unit_era_2750",
+               "unit_era_2900",
+               "unit_clan"
             ],
             "tagSetSourceFile" : "Tags/UnitTags"
          },
@@ -143,24 +142,24 @@
          "unitTagSet" : {
             "items" : [
                "unit_heavy",
-               "unit_jumpOK",
-               "unit_mech",
-			   "unit_lance_vanguard"
+               "unit_mech"
             ],
             "tagSetSourceFile" : "Tags/UnitTags"
          },
          "excludedUnitTagSet" : {
             "items" : [
+               "unit_lance_tank",
+               "unit_lance_support",
                "unit_noncombatant",
-			   "unit_urbie",
-            "unit_very_rare_{CUR_TEAM.faction}",
-            "unit_ext_rare_{CUR_TEAM.faction}",
-            "unit_none_{CUR_TEAM.faction}",
-            "unit_hero_{CUR_TEAM.faction}",
-            "unit_LosTech",
-            "unit_era_2750",
-            "unit_era_2900",
-            "unit_clan"
+               "unit_urbie",
+               "unit_very_rare_{CUR_TEAM.faction}",
+               "unit_ext_rare_{CUR_TEAM.faction}",
+               "unit_none_{CUR_TEAM.faction}",
+               "unit_hero_{CUR_TEAM.faction}",
+               "unit_LosTech",
+               "unit_era_2750",
+               "unit_era_2900",
+               "unit_clan"
             ],
             "tagSetSourceFile" : "Tags/UnitTags"
          },

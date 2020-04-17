@@ -28,13 +28,13 @@
          "unitTagSet" : {
             "items" : [
                "unit_assault",
-               "unit_jumpOK",
                "unit_mech"
             ],
             "tagSetSourceFile" : "Tags/UnitTags"
          },
          "excludedUnitTagSet" : {
             "items" : [
+               "unit_speed_low",
                "unit_noncombatant",
 			   "unit_urbie",
             "unit_very_rare_{CUR_TEAM.faction}",
@@ -66,14 +66,14 @@
          "unitTagSet" : {
             "items" : [
                "unit_assault",
-               "unit_jumpOK",
-               "unit_mech",
-			   "unit_lance_vanguard"
+               "unit_mech"
             ],
             "tagSetSourceFile" : "Tags/UnitTags"
          },
          "excludedUnitTagSet" : {
-            "items" : [           
+            "items" : [
+               "unit_speed_low",
+               "unit_lance_support",
                "unit_noncombatant",
 			   "unit_urbie",
             "unit_very_rare_{CUR_TEAM.faction}",
@@ -104,15 +104,15 @@
          "pilotId" : "Tagged",
          "unitTagSet" : {
             "items" : [
-               "unit_jumpOK",
                "unit_mech",
                "unit_assault",
-			   "unit_lance_support"
+               "unit_lance_support"
             ],
             "tagSetSourceFile" : "Tags/UnitTags"
          },
          "excludedUnitTagSet" : {
             "items" : [
+               "unit_speed_low",
                "unit_noncombatant",
 			   "unit_urbie",
             "unit_ext_rare_{CUR_TEAM.faction}",
@@ -143,7 +143,6 @@
          "unitTagSet" : {
             "items" : [
                "unit_assault",
-               "unit_jumpOK",
                "unit_mech",
 			   "unit_lance_tank"
             ],
@@ -151,6 +150,7 @@
          },
          "excludedUnitTagSet" : {
             "items" : [
+               "unit_speed_low",
                "unit_noncombatant",
 			   "unit_urbie",
             "unit_very_rare_{CUR_TEAM.faction}",

@@ -1,0 +1,38 @@
+{
+    "MechTags": {
+        "items": [
+            "unit_mech",
+            "unit_heavy",
+            "unit_release",
+            "unit_lance_support",
+            "unit_role_sniper",
+			"unit_uncommon",
+			"unit_uncommon_MagistracyOfCanopus",
+			"unit_uncommon_TaurianConcordat",
+			"unit_uncommon_Liao",
+			"unit_uncommon_Marik",
+			"unit_common_Davion",
+			"unit_uncommon_Steiner",
+			"unit_uncommon_Kurita",
+			"unit_uncommon_ComStar",
+			"unit_uncommon_AuriganDirectorate",
+			"unit_uncommon_Betrayers",
+			"unit_uncommon_AuriganMercenaries",
+			"unit_uncommon_AuriganPirates",
+			"unit_uncommon_AuriganRestoration",
+			"unit_uncommon_Locals",
+			"unit_uncommon_MajestyMetals",
+			"unit_uncommon_MercenaryReviewBoard",
+			"unit_uncommon_FlakJackals",
+			"unit_uncommon_LocalsBrockwayRefugees",
+			"unit_uncommon_SelfEmployed",
+			"unit_uncommon_MasonsMarauders",
+			"unit_uncommon_SteelBeast",
+			"unit_uncommon_KellHounds",
+			"unit_uncommon_RazorbackMercs",
+			"unit_uncommon_HostileMercenaries",
+			"unit_uncommon_NoFaction"
+        ],
+        "tagSetSourceFile": ""
+    },
+}

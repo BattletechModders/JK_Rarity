@@ -28,13 +28,13 @@
          "unitTagSet" : {
             "items" : [
                "unit_heavy",
-               "unit_jumpOK",
                "unit_mech"
             ],
             "tagSetSourceFile" : "Tags/UnitTags"
          },
          "excludedUnitTagSet" : {
             "items" : [
+               "unit_speed_low",
                "unit_noncombatant",
 			   "unit_urbie",
             "unit_very_rare_{CUR_TEAM.faction}",
@@ -66,14 +66,14 @@
          "unitTagSet" : {
             "items" : [
                "unit_heavy",
-               "unit_jumpOK",
                "unit_mech",
                "unit_lance_tank"
             ],
             "tagSetSourceFile" : "Tags/UnitTags"
          },
          "excludedUnitTagSet" : {
-            "items" : [              
+            "items" : [
+               "unit_speed_low",           
                "unit_noncombatant",
 			   "unit_urbie",
             "unit_very_rare_{CUR_TEAM.faction}",
@@ -105,14 +105,15 @@
          "unitTagSet" : {
             "items" : [
                "unit_heavy",
-               "unit_jumpOK",
-               "unit_mech",
-               "unit_lance_vanguard"
+               "unit_mech"
             ],
             "tagSetSourceFile" : "Tags/UnitTags"
          },
          "excludedUnitTagSet" : {
             "items" : [
+               "unit_speed_low",
+               "unit_lance_tank",
+               "unit_lance_support",
                "unit_noncombatant",
 			   "unit_urbie",
             "unit_ext_rare_{CUR_TEAM.faction}",
@@ -143,14 +144,14 @@
          "unitTagSet" : {
             "items" : [
                "unit_heavy",
-               "unit_mech",
-			   "unit_jumpOK",
-               "unit_lance_support"
+               "unit_mech"
             ],
             "tagSetSourceFile" : "Tags/UnitTags"
          },
          "excludedUnitTagSet" : {
             "items" : [
+               "unit_speed_low",
+               "unit_lance_tank",
                "unit_noncombatant",
 			   "unit_urbie",
             "unit_very_rare_{CUR_TEAM.faction}",
