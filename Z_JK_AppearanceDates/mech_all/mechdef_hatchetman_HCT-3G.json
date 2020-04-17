@@ -1,0 +1,9 @@
+{
+    "RequiredToSpawnCompanyTags" : {
+        "items" : [
+            "flashpoint_longRoad_complete"
+        ],
+        "tagSetSourceFile" : ""
+    },
+    "MinAppearanceDate" : "3023-10-26T00:00:00Z",
+}

@@ -137,7 +137,7 @@
          }
       },
       {
-         "unitType" : "Mech",
+         "unitType" : "Vehicle",
          "unitId" : "Tagged",
          "pilotId" : "Tagged",
          "unitTagSet" : {

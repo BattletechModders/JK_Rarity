@@ -1,17 +1,15 @@
-Version 1.4.0.4
+Version 1.5.1.0
 
 This was originally part of the JK_Variants mod, but I am going to break it out as a separate function, as I have received multiple requests to make it work with the other existing New 'Mech skins and mods.
 
 IMPORTANT NOTE: 
-Please use the ModTek.dll file included in the mod (or a newer version). This is the one everything is tested with, and it seems to play nicest across the various mods.
-
-It also requires you to have BT1_4_MadlibsFix installed - the most recent version (1.0) is included in the zip, but I encourage you to check for the latest version at https://github.com/IceRaptor/BT1_4_MadlibsFix/releases/tag/REL_1.0.0  Thank you to eck for the solution and FrostRaptor for getting it into Mod format so quickly!  Thank you to m22Spencer as well for the first iteration in BattletechPerformanceFix.
-
+BT1_4_MadlibsFix is no longer required - if you have an older version of this mod, please delete the "BT1_4_MadlibsFix" folder.
 
 Also, I suggest you delete you Battletech/Mods/.modtek folder when you install this mod.
 
+
 What does it do?
-The idea behind this mod is to add Faction Rarity Tags to every 'Mech and Vee in the game, in JK_Variants and in other available packages. These tags are then used in new LanceDef files that will call for a mix of tag values.
+The idea behind this mod is to add Faction Rarity Tags to every 'Mech and Vee in the game, in JK_Variants and in other mods. These tags are then used in new LanceDef files that will call for a mix of tag values.
 
 This makes the various 'Mech/Vee variants become more/less prevalent for the various factions. So, something like the Panther will appear more frequently for a Kurita lance, but that same Panther would be Rare elsewhere - so, instead an Urbie might appear for a similar Liao lance.
 
@@ -20,11 +18,10 @@ How do I install it?
 This mod relies on BTML / ModTek - as long as you have those, you can download the attached "Encounters.zip", then unzip and drop all 3 mod folders into the Battletech/Mods/ folder.
 
 This includes:
-BT1_4_MadlibsFix - this folder has the current version (1.0) by FrostRaptor
 Z_JK_AppearanceDates - this folder includes tags for the appearance year of various 'Mechs and Vehicles.  This should prevent them from appearing prior to their cannon dates when active.
 Z_Sab_JK_RarityTables - this folder includes the lancedefs & tags for vanilla, Flashpoint DLC, JK_Variants & then multiple subfolders for all the wonderful work done by BloodyDoves, GentlePayload, Colo/MattyXR, SolahmaJoe, Dialcaliper and Haree78
 
-Note: in the Z_Sab_JK_RarityTables, there are multiple options for the JSON.  Currently there are only files in the base folders - which cover 3025 rarity.  In time, the 3039 and 3050 folders will be populated.  When those folders are activated, they will overwrite the older tags (where appropriate), so the folders should be applied in the order the relative JSON shows.
+Note: in the Z_Sab_JK_RarityTables, there are multiple options for the JSON.  Currently there are only files in the base folder  (which cover 3025 rarity), 3039 folder and the userAdded folder (this includes various homebrew or non-standard named 'Mechs/Vees).  In time, the 3050 folder will also be populated.  When those folders are activated, they will overwrite the older tags (where appropriate), so the folders should be applied in the order the relative JSON shows.
 
 
 Does it work with Vanilla?
@@ -32,7 +29,7 @@ Yes, it does, but with the limited choices in the pure vanilla mode, you will se
 
 
 Does it work with other 'Mech/Vee mods?
-As mentioned at the start, this was originally designed to work with the JK_Variants mod (which adds 70+ new 'Mech variants and 35+ new Vehicle variants to the existing chassis), but during the testing, there was interest expressed in expanding the viable candidates to things like the Bloody Doves' 'Mechs, SolahmaJoe's 'Mechs and Colo's work () and Dr Banzai's Helm Core Resurgence is on the horizon (many new variants using upgraded tech).
+As mentioned at the start, this was originally designed to work with the JK_Variants mod (which adds 75+ new 'Mech variants and 55+ new Vehicle variants to the existing chassis), but during the testing, there was interest expressed in expanding the viable candidates to things like the Bloody Doves' 'Mechs, SolahmaJoe's 'Mechs and Colo's work (), Dr Banzai's Helm Core Resurgence is on the horizon (many new variants using upgraded tech) and the 3025 Extended mod.
 
 NOTE : I do not include any of these mods in the file, they must be downloaded individually. This mod will ONLY modify the Tags for the various MechDef_ files that it finds.
 
